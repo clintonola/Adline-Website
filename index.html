@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adline Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- "__" double underscore means subsection "--" two dashes is modifire -->
+  <body>
+    <!-- header -->
+    <header>
+      <!-- div class for logog -->
+      <div class="logo">
+        <img src="./img/ADLINESTUFFS1.png" alt="" />
+      </div>
+      <!-- button class for hamburger -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <!-- navigation classes -->
+      <nav class="nav">
+        <!-- nav list -->
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- introduction section -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, i am
+        <strong>Hakeem Olayiwola</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Photographer & Graphic Designer
+      </p>
+      <img src="./img/ADLINESTUFFS.png" alt="a picture" class="intro__img" />
+    </section>
+
+    <!-- My services section -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">WHAT I DO</h2>
+      <!-- services div -->
+      <div class="services">
+        <!-- service divs, Photography -->
+        <div class="service">
+          <h3>Photography</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            dolorem recusandae veritatis quas quasi qui, aut temporibus
+            molestiae ullam et obcaecati voluptates officia voluptatem est odio
+            vel delectus illo minima. Quas dicta obcaecati in aliquam
+            praesentium distinctio sint. Vero nobis nisi accusamus quis quod
+            culpa. Distinctio cupiditate enim magni dolore.
+          </p>
+        </div>
+        <!-- service divs, Graphic design -->
+        <div class="service">
+          <h3>Graphic Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nulla
+            doloribus praesentium eos aperiam in dolorum cupiditate provident
+            omnis. Accusamus pariatur possimus quod expedita labore iste
+            voluptates, odit perspiciatis minus quos quidem, voluptatibus quae
+            repellat impedit dolore sapiente placeat ad? Consequatur aliquam
+            tenetur consectetur exercitationem delectus molestias sed assumenda
+            sapiente.
+          </p>
+        </div>
+
+        <!-- service divs, Print -->
+        <div class="service">
+          <h3>Print</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum sint
+            hic a quaerat id quod natus aspernatur sequi, nam ex aliquid
+            excepturi atque, ipsa eius corrupti culpa modi dignissimos voluptate
+            itaque! Obcaecati est libero consectetur aliquam dignissimos?
+            Suscipit itaque architecto iure dolore iusto, laudantium quisquam
+            facilis sequi autem eligendi? Laborum voluptas id perferendis
+            tempore voluptatibus ea provident sunt libero neque.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">See My work</a>
+    </section>
+
+    <!-- About me section -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Photographer & Graphic Designer based out of ATL
+      </p>
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+          voluptas! Nisi, voluptate quos iusto dignissimos voluptatibus quaerat
+          laborum corrupti sint quas iure quis, corporis quisquam possimus,
+          dolore labore. Necessitatibus, quisquam aliquid sunt suscipit
+          obcaecati aperiam consectetur consequuntur possimus. Assumenda
+          corrupti laboriosam consequuntur fugiat possimus esse ipsam ex
+          accusamus natus, nulla magni numquam qui, rem veritatis repellendus
+          recusandae. Optio a vero, quidem dolor animi voluptate iusto, sequi
+          dolore laborum officia quasi, in impedit. Quidem, consequatur ducimus?
+          Nemo earum distinctio quod illum.
+        </p>
+      </div>
+      <img src="./img/DSC00433.jpg" alt="image" class="about-me__img" />
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Gallery</h2>
+      <!-- <p class="section__subtitle"></p> -->
+
+      <!-- Portfolio Item -->
+      <div class="portfolio">
+        <!-- Portfolio item 1 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07812.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 2 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC06763.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 3 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07425.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 4 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC06764.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 5 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC06839.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 6 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07144.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 7 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07265.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 8 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07341.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 9 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07425.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 10 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07671.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 11 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07699.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 12 -->
+        <a href="#" class="portfolio__item">
+          <img src="./img/DSC07610.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+      <a href="./portfolio-item.html" class="btn">See More of My work</a>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <a href="mailto:hello@adline.dev" class="footer__link">
+        hello@adline.dev
+      </a>
+      <!-- Social Media List,, Use Font from font a --->
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <!-- <li class="social-list__item">
+          <a class="socail-list__link" href="#">D</a>
+        </li> -->
+      </ul>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
